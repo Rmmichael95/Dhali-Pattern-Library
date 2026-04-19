@@ -14,8 +14,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 function dhali_register_agency_patterns() {
     // 1. Register a custom category for your agency so they are easy to find
     register_block_pattern_category(
-        'dhali-agency',
-        array( 'label' => __( 'dhali Agency Patterns', 'dhali' ) )
+        'dhali-web-development',
+        array( 'label' => __( 'Dhali Patterns', 'dhali' ) )
     );
 
     // 2. Auto-load all patterns from the /patterns/ directory
