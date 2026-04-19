@@ -1,7 +1,11 @@
 <?php
 return array(
-    'title'      => __( '50/50 Text Image Card', 'dhali' ),
+    'title'         => __( '50/50 Text Image Card', 'dhali' ),
     'categories' => array( 'dhali-web-development', 'card' ),
+    'description'   => _x( 'A 50/50 split card featuring text and pricing on the left, and an image with a call to action button on the right.', 'Block pattern description', 'dhali' ),
+    'keywords'      => array( 'split', 'pricing', 'image', 'call to action', 'cta' ),
+    'viewportWidth' => 1000,
+    'blockTypes'    => array( 'core/columns' ),
     'content'    => '
             <!-- wp:group {"metadata":{"name":"50 50 Image card"},"layout":{"type":"constrained"},"href":"#","linkDestination":"custom","animationType":"scaleOnHover"} -->
             <div class="wp-block-group"><!-- wp:columns {"isStackedOnMobile":false,"metadata":{"name":"Card"},"style":{"spacing":{"blockGap":{"top":"0","left":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"shadow":"var:preset|shadow|medium-dark"}} -->
