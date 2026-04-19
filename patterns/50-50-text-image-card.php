@@ -1,7 +1,7 @@
 <?php
 return array(
     'title'      => __( '50/50 Text Image Card', 'dhali' ),
-    'categories' => array( 'dhali', 'card' ),
+    'categories' => array( 'dhali-web-development', 'card' ),
     'content'    => '
             <!-- wp:group {"metadata":{"name":"50 50 Image card"},"layout":{"type":"constrained"},"href":"#","linkDestination":"custom","animationType":"scaleOnHover"} -->
             <div class="wp-block-group"><!-- wp:columns {"isStackedOnMobile":false,"metadata":{"name":"Card"},"style":{"spacing":{"blockGap":{"top":"0","left":"0"}},"layout":{"selfStretch":"fit","flexSize":null},"shadow":"var:preset|shadow|medium-dark"}} -->
