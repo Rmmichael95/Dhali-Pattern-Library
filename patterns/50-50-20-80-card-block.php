@@ -65,7 +65,8 @@ return array(
             <!-- /wp:column -->
 
             <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"background":{"backgroundImage":{"url":"' . esc_url( plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/logoipsum-419.png' ) . '","source":"url","backgroundSize":"contain", "backgroundRepeat":"no-repeat", "backgroundPosition":"center"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom","justifyContent":"right"}} -->
+
+            <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"background":{"backgroundImage":{"url":"' . esc_url( plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/logoipsum-419.png' ) . '","source":"url"},"backgroundSize":"contain", "backgroundRepeat":"no-repeat", "backgroundPosition":"center"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom","justifyContent":"right"}} -->
             <div class="wp-block-group" style="min-height:100%"><!-- wp:buttons {"style":{"spacing":{"margin":{"bottom":"-20px"}}},"layout":{"type":"flex","verticalAlignment":"top","justifyContent":"right","orientation":"horizontal","flexWrap":"nowrap"}} -->
             <div class="wp-block-buttons" style="margin-bottom:-20px"><!-- wp:button {"backgroundColor":"custom-color-5","textColor":"custom-color-6","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|custom-color-6"}}}}} -->
             <div class="wp-block-button"><a class="wp-block-button__link has-custom-color-6-color has-custom-color-5-background-color has-text-color has-background has-link-color wp-element-button" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px">Read More</a></div>
@@ -113,7 +114,9 @@ return array(
             <!-- /wp:column -->
 
             <!-- wp:column -->
-            <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"background":{"backgroundImage":{"url":"' . esc_url( plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/logoipsum-419.png' ) . '","source":"url","backgroundSize":"contain", "backgroundRepeat":"no-repeat", "backgroundPosition":"center"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom","justifyContent":"right"}} -->
+
+
+            <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"background":{"backgroundImage":{"url":"' . esc_url( plugin_dir_url( dirname( __FILE__ ) ) . 'assets/images/logoipsum-419.png' ) . '","source":"url"},"backgroundSize":"contain", "backgroundRepeat":"no-repeat", "backgroundPosition":"center"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"bottom","justifyContent":"right"}} -->
             <div class="wp-block-group" style="min-height:100%"><!-- wp:buttons {"style":{"spacing":{"margin":{"bottom":"-20px"}}},"layout":{"type":"flex","verticalAlignment":"top","justifyContent":"right","orientation":"horizontal","flexWrap":"nowrap"}} -->
             <div class="wp-block-buttons" style="margin-bottom:-20px"><!-- wp:button {"backgroundColor":"custom-color-5","textColor":"custom-color-6","style":{"border":{"radius":{"topLeft":"0px","topRight":"0px","bottomLeft":"0px","bottomRight":"0px"}},"elements":{"link":{"color":{"text":"var:preset|color|custom-color-6"}}}}} -->
             <div class="wp-block-button"><a class="wp-block-button__link has-custom-color-6-color has-custom-color-5-background-color has-text-color has-background has-link-color wp-element-button" style="border-top-left-radius:0px;border-top-right-radius:0px;border-bottom-left-radius:0px;border-bottom-right-radius:0px">Read More</a></div>
