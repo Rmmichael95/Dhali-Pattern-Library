@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Dhali Agency Pattern Library
+ * Plugin Name: Dhali Pattern Library
  * Description: A centralized, version-controlled repository for our custom block patterns.
  * Version: 1.0.0
- * Author: Dhali Web Dev
+ * Author: Dhali
  */
 
 // Exit if accessed directly.
