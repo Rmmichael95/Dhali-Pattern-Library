@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Dhali Pattern Library
  * Description: A centralized, version-controlled repository for our custom block patterns and FSE templates.
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author: Dhali
  */
 
@@ -10,6 +10,40 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+/**
+ * Enqueue utility classes on the front end.
+ *
+ * These are the CSS classes that non-technical users apply via the Ollie Pro
+ * CSS class picker. Keeping the styles here (rather than only in the Ollie Pro
+ * database) means the plugin is the single source of truth and styles travel
+ * with the codebase between sites.
+ */
+function dhali_enqueue_utility_classes() {
+	wp_enqueue_style(
+		'dhali-utility-classes',
+		plugin_dir_url( __FILE__ ) . 'assets/css/dhali-classes.css',
+		array(),
+		'1.2.0'
+	);
+}
+add_action( 'wp_enqueue_scripts', 'dhali_enqueue_utility_classes' );
+
+/**
+ * Enqueue the same utility classes inside the block editor.
+ *
+ * This ensures that what non-technical users see in the editor (when they
+ * apply a class via the Ollie picker) matches the front end exactly.
+ */
+function dhali_enqueue_editor_utility_classes() {
+	wp_enqueue_style(
+		'dhali-utility-classes-editor',
+		plugin_dir_url( __FILE__ ) . 'assets/css/dhali-classes.css',
+		array(),
+		'1.2.0'
+	);
+}
+add_action( 'enqueue_block_editor_assets', 'dhali_enqueue_editor_utility_classes' );
 
 /**
  * Register custom block patterns and the Dhali pattern category.
